@@ -1,0 +1,124 @@
+V "GNAT Lib v2011"
+A -gnatA
+P SS ZX
+R nnnnnnnvnvnnnnnnnnvvnvnnnvnnnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnn
+
+U reactor_package%b	reactor_package.adb	4fc6d0e5 NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+U reactor_package%s	reactor_package.ads	40b07172 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.formatting%s  a-calfor.adb	a-calfor.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-calend.ads		20110428140858 343c83dd
+D a-calfor.ads		20110428140858 0a6f9afc
+D a-catizo.ads		20110428140858 409d7e5b
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-reatim.ads		20110428140902 63f07669
+D a-rttiev.ads		20110428140902 22f35a33
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D reactor_package.ads	20190122111610 8fa77996
+D reactor_package.adb	20190122111610 c061a973
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-conca3.ads		20110428140906 762a026a
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imgint.ads		20110428140906 02dbe0c2
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+X 1 ada.ads
+16K9*Ada 19e8 19|2r6 2r25 3r6 3r39 4r6 4r23 5r6 21r41 30r30 30r57 31r28 32r32
+. 20|8r10 13r10 16r41 20r10
+X 2 a-calend.ads
+36K13*Calendar 358e17 19|5r10
+X 3 a-calfor.ads
+24K22*Formatting 215e28 19|5w19
+X 9 a-reatim.ads
+39K13*Real_Time 139e18 19|2w10 2r29 3r10 3r43 21r45 30r34 30r61 31r32 32r36
+. 20|8r14 13r14 16r45 20r14
+41O9*Time 19|32r46
+46O9*Time_Span 19|30r44
+53V13*Clock{41O9} 20|7s37 19s37
+55V13*"+"{41O9} 20|7s43 19s43
+85V13*Milliseconds{46O9} 19|30s71
+X 10 a-rttiev.ads
+38K23*Timing_Events 81e32 19|3w20 3r53 21r55 31r42 20|8r24 13r24 16r55 20r24
+40R9*Timing_Event 75e14 19|21r69 31r56 20|16r69
+45U14*Set_Handler 20|8s38 13s38 20s38
+X 13 a-textio.ads
+49K13*Text_IO 471e16 19|4w10 4r27
+263U14*Put_Line 20|44s19
+X 19 reactor_package.ads
+7K9*Reactor_Package 48l5 48e20 20|1b14 84l5 84t20
+12I12*Temperature_t{integer} 24r38 35r18 38r19 20|55r38
+14W19*Reactor 46l8 46e15 20|3b19 81l8 81t15
+16U17 setOperationMode 16>34 20|29b17 52l11 52t27
+16i34 operation{integer} 20|29b34 32r14 34r31
+17U17 setID 17>23 20|76b17 79t10
+17i23 newID{integer} 20|76b23 78r15
+18U17 modifyTemperature 18>35 20|61b17 66l11 66t28
+18i35 temp{integer} 20|61b35 65r39
+20U17 OpenGate 20|5b17 9l11 9t19 42s19 45s19
+21U17 GateTimer 21=27 20|8r96 16b17 20r96 21l11 21t20
+21r27 event{10|40R9} 20|16b27
+22U17 CloseGate 20|11b17 14l11 14t20 39s19
+24V16 getTemperature{12I12} 20|55b16 58l11 58t25
+25V16 getID{integer} 20|69b16 72l11 72t16
+30o7 openSluiceGate_Period{9|46O9} 20|7r45 19r45
+31r7 openSluiceGateEvent{10|40R9} 20|8r50 13r50 20r50
+32o7 OpenSluiceGate_NextTime{9|41O9} 20|7r10 8r71 13r71 19r10 20r71
+35i7 decrement{12I12} 20|18r39
+38i7 temperature{12I12} 20|18r10 18r25 57r17 65r10 65r25
+41i7 operation_mode{integer} 20|32r27 34r13 36r18
+44i7 id{integer} 20|44r55 71r17 78r9
+X 21 system.ads
+37K9*System 19|1w6 21|196e11
+
